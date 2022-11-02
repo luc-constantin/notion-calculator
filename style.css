@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #dark {
+    margin-bottom: 40px;
+  }
+
+
+html[data-theme='dark'] {
+    background: #000;
+    filter: invert(1) hue-rotate(180deg)
+}
+
+  button {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    border: none;
+    margin: 2px;
+    font-size: 30px;
+    font-weight: 250;
+  }
+  
+  .zeroButton {
+    width: 98%;
+    text-align: left;
+    padding-left: 25px;
+    background-color:#333333;
+    color: #fff;
+  }
+  
+  .lightButton {
+    background-color: #a6a6a6;
+    color: #000;
+  }
+  
+  .darkButton {
+    background-color: #333333;
+    color: white;
+  }
+  
+  .accentButton {
+    background-color: #ff9501;
+    color: white;
+  }
+  
+  body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: black;
+  }
+  
+  .input {
+    border: none;
+    width: 250px;
+    font-size: 50px;
+    text-align: right;
+    background-color: black;
+    color: white;
+    font-weight: 200;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: white;
+  }
+  

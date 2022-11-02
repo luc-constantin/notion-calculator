@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- created by Luc. Visit more @ https://blog.accolades.dev -->
+<!-- follow me on Twitter: https://twitter.com/accolades_dev -->
+<!-- connect on GitHub: https://github.com/luc-constantin -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Notion Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<button id="dark" onclick="toggleTheme('dark');">&#9788;</button>
+<button id="light" onclick="toggleTheme('light');">&#x263D;</button>
+<body>
+  <table>
+    <tr>
+      <td colspan="4">
+        <form>
+          <input class="input" id="input" placeholder="0">
+        </form>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button class="lightButton" onclick="cleanInput()">C</button>
+      </td>
+      <td>
+        <button class="lightButton" onclick="reverse()">+/-</button>
+      </td>
+      <td>
+        <button class="lightButton" onclick="percent()">%</button>
+      </td>
+      <td>
+        <button class="accentButton" onclick="operationFunction('/')">÷</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button class="darkButton" onclick="add(7)">7</button>
+      </td>
+      <td>
+        <button class="darkButton" onclick="add(8)">8</button>
+      </td>
+      <td>
+        <button class="darkButton" onclick="add(9)">9</button>
+      </td>
+      <td>
+        <button class="accentButton" onclick="operationFunction('*')">x</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button class="darkButton" onclick="add(4)">4</button>
+      </td>
+      <td>
+        <button class="darkButton" onclick="add(5)">5</button>
+      </td>
+      <td>
+        <button class="darkButton" onclick="add(6)">6</button>
+      </td>
+      <td>
+        <button class="accentButton" onclick="operationFunction('-')">-</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button class="darkButton" onclick="add(1)">1</button>
+      </td>
+      <td>
+        <button class="darkButton" onclick="add(2)">2</button>
+      </td>
+      <td>
+        <button class="darkButton" onclick="add(3)">3</button>
+      </td>
+      <td>
+        <button class="accentButton" onclick="operationFunction('+')">+</button>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <button class="zeroButton" darkButton onclick="add(0)">0</button>
+      </td>
+      <td>
+        <button class="darkButton" onclick="add('.')">,</button>
+      </td>
+      <td>
+        <button class="accentButton" onclick="equal()">=</button>
+      </td>
+    </tr>
+  </table>
+
+</body>
+<script src="script.js"></script>
+</html>
