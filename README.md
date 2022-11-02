@@ -8,4 +8,4 @@ is an app I decide to use it on one of my Budget table within Notion.
 - has dark and light mode
 - basics calculator functions
 
-### Take a look [here](https://luc-constantin.github.io/notion-calculator/)
+### You can take a look [here](https://luc-constantin.github.io/notion-calculator/)
