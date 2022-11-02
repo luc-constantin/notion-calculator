@@ -1,7 +1,10 @@
 # Notion-Calculator
 
 ### Notion - Calculator 
-is an app I decide to use it on one of my Budget table within Notion.
+This is an app I decide to use it on one of my Budget table within Notion.
+I opened a simple embed within Notion and added the link below the Custom sums
+in Notion.
+
 
 #### Main Functions
 - it mimicks iOS Calculator
