@@ -3,7 +3,7 @@
 ### Notion - Calculator 
 This is an app I decide to use it on one of my Budget table within Notion.
 I opened a simple embed within Notion and added the link below the Custom sums
-in Notion.
+in Notion. You can see how I did it here
 
 
 #### Main Functions
